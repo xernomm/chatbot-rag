@@ -1,0 +1,16 @@
+.chatfield
+{
+    width: 65%;
+    margin: auto;
+    max-height: 65vh;
+    overflow-y: auto;
+    padding: 3%;
+}
+
+@media (max-width: 768px) { /* Adjust the max-width as needed for your mobile breakpoint */
+    .chatfield
+    {
+        width: 95%;
+        margin: auto;
+    }
+}

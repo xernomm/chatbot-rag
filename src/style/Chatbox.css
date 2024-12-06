@@ -1,0 +1,22 @@
+.user-message {
+    background-color: #ff000054; /* Light blue background for user messages */
+    padding: 10px;
+    border-radius: 25px 25px 0 25px;
+    margin: 5px 0;
+    color: white;
+    /* Remove width and height properties to allow natural sizing */
+    border: solid rgba(255, 255, 255, 0.355) 1px;
+    display: inline-block; /* Allow the box to size based on content */
+    max-width: 80%; /* Optional: limit the maximum width */
+}
+
+.bot-message {
+    background-color: #adadad4a; /* Light gray background for bot messages */
+    padding: 10px;
+    border-radius: 25px 25px 25px 0;
+    margin: 5px 0;
+    color: white;
+    /* Remove width and height properties to allow natural sizing */
+    display: inline-block; /* Allow the box to size based on content */
+    max-width: 80%; /* Optional: limit the maximum width */
+}

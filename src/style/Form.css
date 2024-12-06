@@ -1,0 +1,26 @@
+.formInput {
+    position: absolute;
+    top: 85%;
+    left: 20%;
+    width: 60%; /* Default for desktop */
+}
+
+.buttonInput {
+    position: absolute;
+    top: 85%;
+    left: 76%;
+}
+
+
+@media (max-width: 768px) { /* Adjust the max-width as needed for your mobile breakpoint */
+    .formInput {
+        top: 91%;
+        left: 0%;
+        width: 100%; /* For mobile devices */
+    }
+    .buttonInput {
+        position: absolute;
+        top: 91%;
+        left: 86%;
+    }
+}
